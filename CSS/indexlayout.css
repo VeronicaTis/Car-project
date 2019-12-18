@@ -8,6 +8,20 @@
     src: url('Fonts/Cosmos.otf');
     src: url('Fonts/Cosmos.otf') format(opentype);
 }
+@font-face{
+    font-family:'nervous';
+    src: url('Fonts/NERVOUSM.ttf');
+    src: url('Fonts/NERVOUSM.ttf') format(truetype);
+}
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
 .grid-container{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -30,6 +44,7 @@
     padding: 3em;
     font-family: 'cosmos';
     color:green;
+    text-shadow: 2px 2px black;
     font-size:80px;
 }
 .text{
@@ -40,10 +55,16 @@
     display: inline;
 }
 .text p{
+<<<<<<< Updated upstream
     
+=======
+  font-family: 'nervous';
+  font-size: 20px;
+>>>>>>> Stashed changes
 }
 .text img{
     width:50%;
     float: left;
-    
+}
+
 }
