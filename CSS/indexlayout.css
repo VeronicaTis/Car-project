@@ -3,6 +3,11 @@
     src: url('Fonts/LikeAStone.ttf');
     src: url('Fonts/LikeAStone.ttf') format(truetype);
 }
+@font-face{
+    font-family:'cosmos';
+    src: url('Fonts/Cosmos.otf');
+    src: url('Fonts/Cosmos.otf') format(opentype);
+}
 .grid-container{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -23,8 +28,8 @@
     text-align: center;
     z-index: 2;
     padding: 3em;
-    font-family: 'stone';
-    color:gold;
+    font-family: 'cosmos';
+    color:green;
     font-size:80px;
 }
 .text{
@@ -32,10 +37,13 @@
     grid-column-end: 2;
     grid-row-start:3;
     grid-row-end:4;
-
+    display: inline;
+}
+.text p{
+  
 }
 .text img{
     width:50%;
     float: left;
-    clear: left;
+    
 }
