@@ -1,3 +1,14 @@
+@font-face{
+    font-family:'stone';
+    src: url('Fonts/LikeAStone.ttf');
+    src: url('Fonts/LikeAStone.ttf') format(truetype);
+}
+@font-face{
+    font-family:'cosmos';
+    src: url('Fonts/Cosmos.otf');
+    src: url('Fonts/Cosmos.otf') format(opentype);
+}
+
 @media only screen and (min-width: 600px){
 
 }
@@ -19,6 +30,7 @@
         font-size: 50px;
         width: fit-content;
         border-radius: 50%;
+        font-family: 'stone';
     }
 
     .nav a{
