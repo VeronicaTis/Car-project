@@ -55,12 +55,10 @@
     display: inline;
 }
 .text p{
-<<<<<<< Updated upstream
-    
-=======
   font-family: 'nervous';
-  font-size: 20px;
->>>>>>> Stashed changes
+  font-size: 30px;
+
+  
 }
 .text img{
     width:50%;
