@@ -8,6 +8,12 @@
     src: url('Fonts/Cosmos.otf');
     src: url('Fonts/Cosmos.otf') format(opentype);
 }
+@font-face{
+    font-family:'nervous';
+    src: url('Fonts/NERVOUSM.ttf');
+    src: url('Fonts/NERVOUSM.ttf') format(truetype);
+}
+
 
 @media only screen and (min-width: 600px){
 
@@ -20,10 +26,6 @@
 @media only screen and (min-width: 992px){
     
     .nav{
-        grid-column-start:1;
-        grid-column-end:3;
-        grid-row-start:1;
-        grid-row-end: 2;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -50,6 +52,16 @@
 
     .nav a:hover, .nav a:active{
         color: rgb(194, 194, 194);
+    }
+
+    .footer{
+        background-color: rgb(65, 39, 11);
+        border-radius: 5px;
+        text-align: center;
+        font-family: 'nervous';
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        line-height: 17px;
     }
     
 }
