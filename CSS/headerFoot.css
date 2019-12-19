@@ -18,8 +18,12 @@
 }
 
 @media only screen and (min-width: 992px){
-
+    
     .nav{
+        grid-column-start:1;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end: 2;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
