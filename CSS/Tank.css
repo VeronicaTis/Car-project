@@ -21,16 +21,17 @@
 
     html{
         background-image: url(../images/grassyField.jpg);
-        background-size: 100%;
+        background-size: cover;
     }
 
     .body{
         width: 85%;
         margin: auto;
-        padding: 5%;
+        padding: 2%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100%;
+        grid-template-rows: fit-content fit-content;
+        font-family: 'nervous';
     }
 
     .stats{
@@ -53,23 +54,14 @@
         border: black 2px solid;
     }
 
-    .stats th{
-        font-family: 'cosmos';
-    }
-
-    .stats td{
-        font-family: 'nervous';
-    }
-
     .stats h1{
         margin: auto;
         height: 20%;
-        font-size: 70px;
+        font-size: 80px;
         text-align: center;
         background: rgba(102, 102, 102, 0.836);
         border: black 2px solid;
         border-bottom: black 0px solid;
-        font-family: 'cosmos';
     }
 
     .img1{
@@ -79,6 +71,26 @@
         opacity: 80%;
         border-radius: 2px;
         border: solid black 2px;
+    }
+
+    .history {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background: rgba(102, 102, 102, 0.836);
+        font-size: 25px;
+    }
+
+    .history h1{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .history p{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
     }
 
 }
