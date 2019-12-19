@@ -22,6 +22,12 @@
 }
 
 @media only screen and (min-width: 992px){
+
+body{
+    background-image: url("../images/back.jpg");
+    
+}
+
 .bod{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -60,6 +66,7 @@
 .text p{
   font-family: 'nervous';
   font-size: 25px;
+  background-color:rgba(168, 166, 166, 0.368);
   
 }
 .text img{
