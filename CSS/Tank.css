@@ -30,7 +30,7 @@
         padding: 2%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: fit-content fit-content;
+        grid-template-rows: fit-content 1fr 1fr;
         font-family: 'nervous';
     }
 
@@ -74,7 +74,7 @@
     }
 
     .history {
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
@@ -91,6 +91,43 @@
         padding-left: 10px;
         padding-right: 10px;
         margin: auto;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+
+    .weapons {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background: rgba(102, 102, 102, 0.836);
+        font-size: 25px;
+    }
+
+    .weapons h1{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .weapons h2{
+        padding: 10px;
+    }
+
+    .weapons p{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        line-height: 30px;
+    }
+
+    .armor{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background: rgba(102, 102, 102, 0.836);
     }
 
 }
